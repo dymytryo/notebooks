@@ -1,0 +1,6 @@
+data_profiling/profile_report.html
+.DS_Store
+**/.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
