@@ -2,7 +2,7 @@
 
 A cleaned, portfolio-ready version of the original `Loan_Calculator.ipynb`.
 The project models a fixed-rate amortizing loan and compares a baseline
-payment schedule against a targeted early-principal payoff strategy.
+payment schedule against a configurable early-principal payoff strategy.
 
 ## Why
 
@@ -17,21 +17,22 @@ date, and side-by-side scenario comparison.
    monthly interest accrual, scheduled principal, optional extra principal, and
    running balance.
 2. **Builds two scenarios** - the original 30-year loan schedule and an
-   accelerated payoff case with `$13,000` of extra principal in the first three
-   months.
+   accelerated payoff case with a recurring extra-principal plan.
 3. **Quantifies the impact** - payoff date, months saved, interest avoided,
    total cash paid, and interest saved per extra principal dollar.
-4. **Keeps the model transparent** - the notebook and helper script use only
+4. **Supports flexible extra payments** - choose the extra monthly amount,
+   the number of months to repeat it, and the payment month where it starts.
+5. **Keeps the model transparent** - the notebook and helper script use only
    the Python standard library.
 
 ## Headline Result
 
-For the sample `$359,200` loan at `6.25%` over 30 years, applying `$13,000` of
-extra principal in the first three payments:
+For the sample `$359,200` loan at `6.25%` over 30 years, applying `$4,000` of
+extra principal per month for the first `3` payments:
 
-- pays the loan off `34` months early;
-- reduces total interest by `$63,387.27`;
-- avoids about `$4.88` of interest for every extra principal dollar applied.
+- pays the loan off `32` months early;
+- reduces total interest by `$59,001.15`;
+- avoids about `$4.92` of interest for every extra principal dollar applied.
 
 This is a scenario model for analysis and education, not financial advice.
 

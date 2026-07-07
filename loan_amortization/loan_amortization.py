@@ -43,6 +43,36 @@ def monthly_payment(principal: float, annual_rate: float, months: int) -> float:
     return round(payment, 2)
 
 
+def recurring_extra_payments(
+    start_date: date,
+    monthly_amount: float,
+    number_of_months: int,
+    start_month: int = 1,
+) -> dict[date, float]:
+    """Build an N-month extra-principal payment schedule.
+
+    Args:
+        start_date: Date of the first scheduled loan payment.
+        monthly_amount: Extra principal to add each month.
+        number_of_months: Number of consecutive months to apply the extra amount.
+        start_month: 1-based payment number where the recurring extra starts.
+    """
+    if start_month <= 0:
+        raise ValueError("start_month must be 1 or greater")
+    if number_of_months < 0:
+        raise ValueError("number_of_months cannot be negative")
+    if monthly_amount < 0:
+        raise ValueError("monthly_amount cannot be negative")
+
+    if monthly_amount == 0 or number_of_months == 0:
+        return {}
+
+    return {
+        add_months(start_date, start_month - 1 + offset): monthly_amount
+        for offset in range(number_of_months)
+    }
+
+
 def build_schedule(scenario: LoanScenario) -> list[dict[str, Any]]:
     """Build a monthly amortization schedule.
 
@@ -152,11 +182,11 @@ def default_scenarios() -> tuple[LoanScenario, LoanScenario]:
         annual_rate=annual_rate,
         term_months=term_months,
         start_date=start_date,
-        extra_payments={
-            date(2023, 11, 1): 4_000.00,
-            date(2023, 12, 1): 4_000.00,
-            date(2024, 1, 1): 5_000.00,
-        },
+        extra_payments=recurring_extra_payments(
+            start_date=start_date,
+            monthly_amount=4_000.00,
+            number_of_months=3,
+        ),
     )
 
     return baseline, accelerated
