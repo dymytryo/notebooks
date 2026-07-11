@@ -1,0 +1,3 @@
+artifacts/
+*.db
+.ipynb_checkpoints/
