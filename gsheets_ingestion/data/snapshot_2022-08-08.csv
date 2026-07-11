@@ -1,0 +1,41 @@
+Record ID,Merchant ID,Contact Date,Rep,Contact Type,Call Outcome,Follow Up Needed,Monthly Volume USD,Notes
+rec-0001,m26b563b1,2022-08-02,j.ibarra,email,escalated,TRUE,"$238,208.72",duplicate account
+rec-0002,m1a6e72b9,2022-08-06,s.okafor,email,left voicemail,FALSE,"$107,424.99",
+rec-0003,m55e7d67e,2022-08-07,a.moss,email,left voicemail,FALSE,"$53,180.32",payor dispute
+rec-0004,m08fc2081,2022-08-02,a.moss,email,no answer,FALSE,"$54,891.57",onboarding question
+rec-0005,m9fbba638,2022-08-01,j.ibarra,email,escalated,TRUE,"$181,744.26",
+rec-0006,m9e1fcc46,2022-08-05,k.tran,call,,FALSE,"$4,202.80",requested W-9
+rec-0007,m6ed299e4,2022-08-03,s.okafor,call,escalated,FALSE,"$242,609.64",
+rec-0008,m9b914a48,2022-08-04,s.okafor,email,escalated,TRUE,"$59,526.12",payor dispute
+rec-0009,mbad32fc0,2022-08-08,a.moss,email,resolved,FALSE,"$206,305.88",limit increase
+rec-0010,m1bcd4b53,2022-08-06,j.ibarra,call,no answer,TRUE,"$88,232.01",
+rec-0011,m031c7c21,2022-08-01,k.tran,call,escalated,FALSE,"$51,760.22",onboarding question
+rec-0012,m37cef9cb,2022-08-04,k.tran,call,no answer,TRUE,"$29,432.39",limit increase
+rec-0013,ma5e1509a,2022-08-08,s.okafor,call,escalated,TRUE,"$102,972.89",onboarding question
+rec-0014,md41fc278,2022-08-04,j.ibarra,email,no answer,TRUE,"$106,986.94",payor dispute
+rec-0015,me0e683af,2022-08-06,j.ibarra,call,left voicemail,TRUE,"$2,072.28",payor dispute
+rec-0016,m03f91068,2022-08-05,j.ibarra,email,resolved,TRUE,"$152,227.47",
+rec-0017,m99eb8a9e,2022-08-06,j.ibarra,call,resolved,TRUE,"$56,194.75",
+rec-0018,m8ffefe4e,2022-08-07,j.ibarra,call,left voicemail,TRUE,"$99,353.90",
+rec-0019,m337746bb,2022-08-08,j.ibarra,call,escalated,TRUE,"$229,208.49",
+rec-0020,m5e0b1ef7,2022-08-02,s.okafor,email,,TRUE,"$36,160.98",onboarding question
+rec-0021,m5d094739,2022-08-03,a.moss,email,left voicemail,FALSE,"$204,118.73",
+rec-0022,m7e4ca11f,2022-08-06,k.tran,call,escalated,FALSE,"$242,918.39",requested W-9
+rec-0023,m3081944c,2022-08-07,k.tran,email,,FALSE,"$93,474.85",
+rec-0024,me7e1b0bb,2022-08-03,j.ibarra,call,,TRUE,"$166,010.18",requested W-9
+rec-0025,ma95a0eb0,2022-08-02,k.tran,call,no answer,TRUE,"$89,851.27",requested W-9
+rec-0026,m7ecacd27,2022-08-01,s.okafor,call,left voicemail,TRUE,"$80,551.00",requested W-9
+rec-0027,mf61d38fb,2022-08-08,s.okafor,email,left voicemail,TRUE,"$216,044.70",requested W-9
+rec-0028,m1e219b44,2022-08-08,s.okafor,call,resolved,FALSE,"$50,590.20",limit increase
+rec-0029,mfce056f0,2022-08-05,s.okafor,call,resolved,FALSE,"$30,831.80",limit increase
+rec-0030,mf94d2198,2022-08-06,j.ibarra,email,resolved,FALSE,"$64,975.75",duplicate account
+rec-0031,m10fc7694,2022-08-01,a.moss,call,left voicemail,TRUE,"$39,356.29",limit increase
+rec-0032,m712212f3,2022-08-07,a.moss,email,escalated,TRUE,"$51,136.60",
+rec-0033,m4c5e3f99,2022-08-04,j.ibarra,email,resolved,TRUE,"$185,400.60",limit increase
+rec-0034,m7214533c,2022-08-06,k.tran,email,escalated,TRUE,"$182,210.54",
+rec-0035,m49294c04,2022-08-05,j.ibarra,call,no answer,FALSE,"$23,977.51",payor dispute
+rec-0036,m038b9496,2022-08-03,k.tran,email,resolved,FALSE,"$178,055.87",duplicate account
+rec-0037,m37c17b80,2022-08-08,a.moss,call,left voicemail,FALSE,"$219,433.04",
+rec-0038,ma29a9854,2022-08-01,j.ibarra,email,escalated,TRUE,"$28,262.45",
+rec-0039,m9bef71d2,2022-08-05,j.ibarra,email,,TRUE,"$77,551.00",
+rec-0040,m0db3630c,2022-08-02,s.okafor,email,escalated,TRUE,"$232,427.94",limit increase

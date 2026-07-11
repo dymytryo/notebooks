@@ -13,3 +13,6 @@ Cleaned Jupyter analyses and small notebook-backed case studies.
 - [`supply_chain_exploration/`](supply_chain_exploration/) - freight-forwarding
   EDA in DuckDB: SQL profiling, key forensics, one-big-table assembly, lasso
   revenue-driver decomposition, margin and retention analysis.
+- [`gsheets_ingestion/`](gsheets_ingestion/) - self-serve Google Sheets
+  ingestion: typed normalization of API pulls and change capture (inserts,
+  updates, deletes) via snapshot diffing, landed as Parquet for dbt.
