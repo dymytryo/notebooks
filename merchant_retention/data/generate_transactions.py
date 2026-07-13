@@ -47,8 +47,8 @@ PAY_START = date(2022, 1, 1)        # payments window
 END = date(2023, 12, 31)
 AS_OF = date(2024, 1, 1)
 
-SUA = "12"                          # single-use account payment method code
-OTHER_METHODS = ["1", "6", "11"]    # check, ACH, legacy card
+SUA = "Credit Card"                 # the single-use account (SUA) virtual card
+OTHER_METHODS = ["Check", "ACH", "Wire"]
 CHANNELS = [16, 26, 30]
 
 SEGMENTS = {
