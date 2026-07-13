@@ -20,3 +20,7 @@ Cleaned Jupyter analyses and small notebook-backed case studies.
   virtual card program: CDC change log to enrollment history, dbt-style
   marts, and 3-month cohort retention in SQL, with activity vs enrollment
   lenses separated.
+- [`virtual_card_clv/`](virtual_card_clv/) - customer lifetime value for the
+  same check-to-virtual-card program: cohort retention heatmaps, survival
+  curves, CLV four ways, per-channel conversion spend ceilings, and an RFM
+  regression for next-month revenue.
