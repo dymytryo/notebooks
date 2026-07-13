@@ -16,3 +16,7 @@ Cleaned Jupyter analyses and small notebook-backed case studies.
 - [`gsheets_ingestion/`](gsheets_ingestion/) - self-serve Google Sheets
   ingestion: typed normalization of API pulls and change capture (inserts,
   updates, deletes) via snapshot diffing, landed as Parquet for dbt.
+- [`merchant_retention/`](merchant_retention/) - North Star Metric for a
+  virtual card program: CDC change log to enrollment history, dbt-style
+  marts, and 3-month cohort retention in SQL, with activity vs enrollment
+  lenses separated.
