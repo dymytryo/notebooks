@@ -1,4 +1,4 @@
-# When the Source of Truth Is a Spreadsheet
+# Google Sheets Ingestion with Change Capture
 
 Self-serve Google Sheets ingestion for analytics: one function turns any
 sheet URL into a typed DataFrame, and snapshot diffing turns consecutive
@@ -37,6 +37,14 @@ sheet while analytics got governed, change-aware data in the lake.
   between them.
 - [`data/generate_snapshots.py`](data/generate_snapshots.py) — the
   generator; every injected sheet-ism and change is documented.
+
+## Original Workflow
+
+The 2022 production automation, as originally diagrammed. The notebook keeps
+its two durable ideas (self-serve reads, snapshot-diff change capture) and
+hands everything downstream to dbt:
+
+![Original automation workflow](images/automation_workflow.png)
 
 ## Run It
 
