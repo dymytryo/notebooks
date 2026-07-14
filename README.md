@@ -24,3 +24,8 @@ Cleaned Jupyter analyses and small notebook-backed case studies.
   same check-to-virtual-card program: cohort retention heatmaps, survival
   curves, CLV four ways, per-channel conversion spend ceilings, and an RFM
   regression for next-month revenue.
+- [`tpv_lstm_forecasting/`](tpv_lstm_forecasting/) - daily settled TPV
+  forecasting for the virtual card program: an LSTM built by the book
+  (windowing, chronological splits, loss diagnostics, 10-seed ensemble),
+  honestly benchmarked to a tie against a linear baseline, with ablation
+  and refit-cadence experiments.
